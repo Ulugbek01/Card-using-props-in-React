@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.card {
+  width: 300px;
+  background: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px 1px #0007;
+  margin: 10px auto;
+  font-family: "open sans", sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.card-avatar img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 18px;
+  color: #786450;
+  margin-top: 10px;
+}
+
+.position {
+  font-size: 13px;
+  color: #786450;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+button {
+  width: 100px;
+  background: transparent;
+  border: 1px solid #786450;
+  border-radius: 100vw;
+  padding: 7px;
+  font-weight: 700;
+  font-size: 11px;
+  color: #786450;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+button:hover {
+  color: #fff;
+  background: #786450;
+}
